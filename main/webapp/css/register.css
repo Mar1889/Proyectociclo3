@@ -1,0 +1,67 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+body{
+    background-image: url("../img/register.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+header{
+    background-color: #eee;
+    opacity: 0.9;
+}
+
+/*form*/
+.sizeDiv{
+    opacity: 0.9;
+}
+.col-sm-4{
+    position: relative;
+}
+
+.olvido{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.btn-pink {
+	background-color: #1ad3da;
+	border-color: #3fbbc0;
+	color:#ffffff;
+    font-weight: bold;
+}
+.btn-pink:hover,
+.btn-pink:focus,
+.btn-pink:active,
+.btn-pink.active {
+	background-color: #70d8dc !important;
+	border-color: #3fbbc0;
+	color:#FFFFFF;
+}
+.btn-green {
+	background-color: #2cc980;
+	border-color: #2cc980;
+	color:#FFFFFF;
+    font-weight: bold;
+}
+
+.btn-green a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active,
+.btn-green.active {
+	background-color: #44de96!important;
+	border-color: #2cc980;
+	color:#FFFFFF;
+}
+

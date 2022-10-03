@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" 
+          href="https://odnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="js/main.js"></script>
+    <link href="css/main.css" rel="stylesheet">
+    <title>ACES:Especialistas</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-info">
+      <a class="navbar-brand" href="./Boostrap/index.html">Inicio</a>
+      <div id="user-data-profile">
+        <span class="badge badge-light mr-2">Citas pendientes</span>
+        <span class="badge badge-light mr-3" id="user-citas_usuario"></span>
+        <div class="btn-group">
+          <button type="button" class="btn btn-light dropdown-toggle" 
+                  data-toggle="dropdown" aria-haspoup="true" aria-expanded="false">
+            <span id="ajustes">Ajustes </span>
+          </button>
+          <div class="dropdown-menu" id="main-menu">
+            <a id="mi-perfil-btn" class="dropdown-item">Miperfil></a>
+            <a id="salir-btn" class="dropdown-item" href="login.html">Salir</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="p-4 d-flex justify-content-center">
+      <table class="table">
+        <thead class="thead-drak">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col" nombre="order-especialidad" data-toogle="tooltip"
+                data-placement="top" title="ordenar por tipo especialista">Especialidad
+              <span class="fas fa-sort" id="icono-ordenar"></span></th>
+            <th scope="col">Email</th>
+            <th scope="col">Citas Pendientes</th>
+            <th scope="col">Novedad</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Pedir Cita</th>
+          </tr>
+        </thead>
+        <tbody id="especialistas-tbody"></tbody>
+      </table>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+body{
+    background-image: url("../img/login1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header{
+    background-color: #eee;
+    opacity: 0.9;
+}
+
+/*publicidad*/
+.g-0{
+    height: 100%
+}
+
+.card-title{
+    font-size: 90px;    
+    font-weight: bold;
+    margin: 0;
+}
+
+hr{
+    height: 5px !important;
+    opacity: 100 !important;
+    margin: 0;
+    background-color: black;    
+    
+}
+
+.card-text{
+        font-weight: bold;   
+        color: #040be5;    
+}
+
+
+.message{
+    position: relative;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.rounded{
+    width: 100%;
+}
+
+
+/*form*/
+.container{
+    opacity: 0.9;
+}
+.col-sm-4{
+    position: relative;
+}
+
+.logo{
+    width: 40%;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+.olvido{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.btn-pink {
+	background-color: #1ad3da;
+	border-color: #3fbbc0;
+	color:#ffffff;
+    font-weight: bold;
+}
+.btn-pink:hover,
+.btn-pink:focus,
+.btn-pink:active,
+.btn-pink.active {
+	background-color: #70d8dc !important;
+	border-color: #3fbbc0;
+	color:#FFFFFF;
+}
+.btn-green {
+	background-color: #2cc980;
+	border-color: #2cc980;
+	color:#FFFFFF;
+    font-weight: bold;
+}
+
+.btn-green a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active,
+.btn-green.active {
+	background-color: #44de96!important;
+	border-color: #2cc980;
+	color:#FFFFFF;
+}
+

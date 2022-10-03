@@ -1,0 +1,12 @@
+#main-menu{
+  left: unset;
+  right: 0;
+}
+
+#ordenar-nombre_especialista{
+  cursor: pointer;
+}
+
+#from-container{
+  width: 40vw;
+}
